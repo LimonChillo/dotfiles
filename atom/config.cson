@@ -1,0 +1,74 @@
+"*":
+  "activate-power-mode":
+    autoToggle: false
+    comboMode:
+      enabled: false
+  "atom-beautify":
+    general:
+      _analyticsUserId: "51573943-8186-4845-a382-61b691c50dd9"
+  "autocomplete-plus": {}
+  autosave:
+    enabled: true
+  "color-picker":
+    abbreviateValues: true
+    preferredFormat: "HEX"
+  core:
+    autoHideMenuBar: true
+    destroyEmptyPanes: false
+    disabledPackages: [
+      "linter-haml"
+      "turbo-javascript"
+      "rails-i18n-autocomplete"
+      "autocomplete-ruby"
+      "git-time-machine"
+      "atom-ungit"
+      "merge-conflicts"
+      "atom-no-tab-close-button"
+      "linter-rubocop"
+    ]
+    telemetryConsent: "limited"
+    themes: [
+      "one-dark-ui"
+      "atom-dark-syntax"
+    ]
+  "custom-title":
+    template: "<%= projectName %> - Atom"
+  editor:
+    fontSize: 15
+    invisibles: {}
+    preferredLineLength: 100
+    showInvisibles: true
+  "exception-reporting":
+    userId: "5e3eacaa-c6f9-c47e-18e1-6cbd6e0e3bee"
+  "file-icons": {}
+  "git-control":
+    showGitFlowButton: false
+  "git-diff": {}
+  github: {}
+  "guard-rspec": {}
+  linter: {}
+  "linter-eslint":
+    disableWhenNoEslintrcFileInPath: true
+    globalNodePath: "/home/david/.nvm/versions/node/v6.9.4/bin/node"
+  "linter-rubocop":
+    command: "bundle exec /home/david/.gem/ruby/2.4.1/bin/rubocop"
+    disableWhenNoConfigFile: true
+  "linter-ui-default":
+    panelHeight: 245
+  "merge-conflicts": {}
+  "split-diff":
+    diffWords: true
+    ignoreWhitespace: true
+    leftEditorColor: "red"
+    rightEditorColor: "green"
+    syncHorizontalScroll: true
+  "status-bar": {}
+  tabs:
+    usePreviewTabs: true
+  "tree-view":
+    hideIgnoredNames: true
+  welcome:
+    showOnStartup: false
+".slim.text":
+  whitespace:
+    removeTrailingWhitespace: true

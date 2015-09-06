@@ -1,0 +1,14 @@
+'body':
+  'ctrl-.': 'pane:split-right'
+  # 'ctrl-,': 'pane:split-down'
+  'ctrl-/': 'window:focus-next-pane'
+
+'atom-workspace atom-text-editor:not([mini])':
+  'ctrl-shift-down': 'editor:add-selection-below'
+  'ctrl-shift-up': 'editor:add-selection-above'
+
+'.platform-darwin':
+  'ctrl-\\': 'tree-view:toggle-focus'
+
+'.editor':
+  'f5': 'format:sql'
